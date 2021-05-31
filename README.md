@@ -9,14 +9,16 @@ HTML and CSS
 
 # Variables
 --primary-color: #0078c4;
+
 --bg-color: rgba(238, 238, 238, 0.50);
+
 --text-color: rgba(0, 0, 0, 0.856);
 
 # Font
-Family: 
+Family: Quicksand 
 
 # Images
-Assest folder
+Assets folder
 
 # Icon
 Any Icon of your choice (e.g Font Awesome, Boxicon, Flaicon, Ionicon)
