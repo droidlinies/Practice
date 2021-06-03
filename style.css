@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.logo{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  order: 1;
+  margin-right: auto;
+}
+nav{
+  order: 2;
+}
+.cta{
+  order: 3;
+}
+li, a, button {
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  
+  text-decoration: none;
+}
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+}
+.nav_links{
+  margin-left: auto ;
+  list-style: none;
+  padding-right: 150px;
+  
+ 
+}
+.nav_links li{
+  display: inline-block;
+padding: 0 20px;
+
+
+
+}
+.nav_links a{
+  transition: all 0.3s eas 0s;
+  color: rgba(0, 0, 0, 0.575) ;
+}
+.nav_links a:hover{
+  transition: all 0.3s eas 0s;
+}
+.nav_links li, a:hover{
+  color: rgba(81, 81, 185, 0.76);
+}
+button{
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: cornflowerblue;
+  border:none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s eas 0s;
+
+}
+button:hover{
+  color: rgba(81, 81, 185, 0.76);
+  
+}
+.grid-container {
+  display: grid;
+  padding: 30px;
+  margin-left: 40px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    "area1 area2";
+}
+
+.area1 { grid-area: area1; 
+padding-top: 120px }
+
+
+.area2 { grid-area: area2; }
+#p_1{
+  font-family: sans-serif;
+  font-size: 40px;
+  letter-spacing: 1;
+}
+span{
+  color: rgb(46, 55, 182);
+}
+#p_2{
+  padding-top: 15px;
+  color: rgba(19, 17, 17, 0.534);
+  font-size: 18px;
+  line-height: 1;
+  padding-bottom: 40px;
+}
+.cta_2{
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  top: 500px;
+  padding: 10px;
+  margin-top: 30px;
+
+}
+
+#span {
+  content: "\2192";
+}
