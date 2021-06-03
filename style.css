@@ -9,15 +9,10 @@
   width: 50px;
   height: 50px;
   cursor: pointer;
-  order: 1;
-  margin-right: auto;
+  
+  margin-right: 30px;
 }
-nav{
-  order: 2;
-}
-.cta{
-  order: 3;
-}
+
 li, a, button {
   font-family: "montserrat", sans-serif;
   font-weight: 500;
@@ -27,9 +22,12 @@ li, a, button {
 }
 header{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  padding: 20px 10%;
+  padding: 15px 40px;
+}
+.to_left{
+display: inline-flex;
 }
 .nav_links{
   margin-left: auto ;
@@ -39,8 +37,9 @@ header{
  
 }
 .nav_links li{
-  display: inline-block;
-padding: 0 20px;
+  display: inline-flex;
+padding: 10px 20px;
+align-items: center;
 
 
 
@@ -58,9 +57,10 @@ padding: 0 20px;
 button{
   margin-left: 20px;
   padding: 9px 25px;
-  background-color: rgba(79, 131, 226, 0.877);
+  background-color: #4f83e2e0;
   border:none;
-  border-radius: 50px;
+  color: white;
+  border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s eas 0s;
 
