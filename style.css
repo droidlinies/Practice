@@ -21,7 +21,7 @@ nav{
 li, a, button {
   font-family: "montserrat", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   
   text-decoration: none;
 }
@@ -34,7 +34,7 @@ header{
 .nav_links{
   margin-left: auto ;
   list-style: none;
-  padding-right: 150px;
+  
   
  
 }
@@ -58,7 +58,7 @@ padding: 0 20px;
 button{
   margin-left: 20px;
   padding: 9px 25px;
-  background-color: cornflowerblue;
+  background-color: rgba(79, 131, 226, 0.877);
   border:none;
   border-radius: 50px;
   cursor: pointer;
@@ -103,6 +103,7 @@ span{
 .cta_2{
   border: 1px solid lightblue;
   border-radius: 5px;
+  color: rgba(79, 131, 226, 0.877);;
   text-decoration: none;
   text-align: center;
   top: 500px;
